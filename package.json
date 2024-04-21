@@ -2,7 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "app": "docker compose up -d && php artisan serve echo \"PgAdmin running on [http://localhost:1650/browser]\"",
+        "app": "docker compose up -d && php artisan serve",
         "dev": "vite",
         "build": "vite build"
     },
